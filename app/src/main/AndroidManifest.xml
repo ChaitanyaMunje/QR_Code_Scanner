@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.camviewlibrary">
 
-    <!--Permission for camera-->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <!--Permission to vibrate-->
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--Permission for internet-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
 
 
     <application
